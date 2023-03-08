@@ -17,6 +17,7 @@ import {
     SiHtml5,
     SiThreedotjs,
 } from "react-icons/si";
+import YoutubeCard from "../YoutubeCard/YoutubeCard";
 
 const Home = () => {
 
@@ -156,7 +157,17 @@ const Home = () => {
         <div className="homeYoutube">
             <Typography variant="h3">YOUTUBE VIDEOS</Typography>
           <div className="homeYoutubeWrapper">
-            
+            <YoutubeCard image="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            title="Sample Video"/>
+             <YoutubeCard image="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            title="Sample Video"/>
+             <YoutubeCard image="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            title="Sample Video"/>
+             <YoutubeCard image="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            title="Sample Video"/>
+             <YoutubeCard image="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            title="Sample Video"/>
+
           </div>
         </div>
     
